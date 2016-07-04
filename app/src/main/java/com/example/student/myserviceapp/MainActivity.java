@@ -22,11 +22,13 @@ public class MainActivity extends Activity {
 
     // Method to start the service
     public void startService(View view) {
-        startService(new Intent(getBaseContext(), MainActivity.class));
+        startService(new Intent(getBaseContext(), MyService.class));
     }
 
     // Method to stop the service
     public void stopService(View view) {
-        stopService(new Intent(getBaseContext(), MainActivity.class));
+        stopService(new Intent(getBaseContext(), MyService.class));
+
+
     }
 }
