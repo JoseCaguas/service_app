@@ -23,7 +23,6 @@
             </intent-filter>
 
         </activity>
-
         <service android:name="com.example.student.myserviceapp.MyService" />
 
     </application>
